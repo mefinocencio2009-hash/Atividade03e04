@@ -91,7 +91,8 @@
     <h2>Entre em Contato</h2>
     <p>Preencha o formulário abaixo e entraremos em contato com você o mais breve possível.</p>
 
-    <form action="#" method="post">
+    <form method="post">
+        @csrf
       <label for="nome">Nome:</label>
       <input type="text" id="nome" name="nome" required>
 

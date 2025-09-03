@@ -17,4 +17,7 @@ class PrincipalController extends Controller
     public function contato(){
         return view('contato');
     }
+    public function enviarcontato(Request $request){
+        dd($request->post());
+    }
 }
